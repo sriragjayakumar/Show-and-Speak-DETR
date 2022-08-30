@@ -5,8 +5,9 @@ The required pretrained waveglow model for this project can be obtained by execu
 ```
 import gdown
 waveglow_pretrained_model = 'waveglow_old.pt'
-gdown.download('https://drive.google.com/uc?id=1WsibBTsuRg_SF2Z6L6NFRTT-NjEy1oTx', waveglow_pretrained_model, quiet=False) ``` 
+gdown.download('https://drive.google.com/uc?id=1WsibBTsuRg_SF2Z6L6NFRTT-NjEy1oTx', waveglow_pretrained_model, quiet=False) 
+``` 
 
 Use app.py to run streamlit dashboard
-### Reference <br/>
+#### Reference <br/>
 [SHOW AND SPEAK: DIRECTLY SYNTHESIZE SPOKEN DESCRIPTION OF IMAGES]([https://pages.github.com/](https://arxiv.org/abs/2010.12267)).
