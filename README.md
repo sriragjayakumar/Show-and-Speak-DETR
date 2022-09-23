@@ -7,7 +7,8 @@ import gdown
 waveglow_pretrained_model = 'waveglow_old.pt'
 gdown.download('https://drive.google.com/uc?id=1WsibBTsuRg_SF2Z6L6NFRTT-NjEy1oTx', waveglow_pretrained_model, quiet=False) 
 ``` 
+Use DETR_HF.ipynb to create Bottom-up features and retrain the SAS model.<br />
+Use app.py to run streamlit dashboard <br />
 
-Use app.py to run streamlit dashboard
 #### Reference <br/>
 [SHOW AND SPEAK: DIRECTLY SYNTHESIZE SPOKEN DESCRIPTION OF IMAGES](https://arxiv.org/abs/2010.12267).
